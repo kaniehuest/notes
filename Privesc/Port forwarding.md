@@ -1,0 +1,24 @@
+
+# Remote port forwarding con chisel
+Para ver un puerto interno de la máquina en nuestro host con chisel.
+Nuestra máquina
+```
+./chisel server --reverse -p 1234
+```
+Máquina víctima
+```
+/chisel client 10.10.10.10:1234 R:9999:127.0.0.1:9999
+```
+
+# Local port forwarding con SSH
+
+```
+ssh jedah@10.10.10.10 -L 9999:127.0.0.1:9999
+```
+
+# Socat
+
+```
+socat tcp-listen:5000,fork tcp:127.0.0.01:7890
+```
+
