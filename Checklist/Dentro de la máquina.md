@@ -68,3 +68,13 @@ cat /etc/rsyncd.auth
 ```
 ls -la /etc/grub.d/
 ```
+
+# Su
+```
+su utilizando como contraseña el mismo nombre de usuario
+```
+
+# Enumerar permisos de la carpeta
+```
+Revisar si tenemos permisos de escritura en la carpeta donde podemos ejecutar un archivo como otro usuario. En caso de tener permisos de escritura, podemos borrar el archivo, crear uno nuevo e inyectar comandos.
+```

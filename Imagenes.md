@@ -1,15 +1,16 @@
-
+# Steghide
 ```
-steghide extract -sf <imagen>
+steghide extract -sf secret.jpg
 ```
 
 Crackear
 ```
-stegcracker <imagen> <diccionario>
+stegcracker secret.jpg /usr/share/seclists/Passwords/Leaked-Databases/rockyou.txt 
 ---
-stegseek <imagen> <diccionario>
+stegseek secret.jpg /usr/share/seclists/Passwords/Leaked-Databases/rockyou.txt 
 ```
 
+# Metadatos
 
 ```
 exiftool <imagen>

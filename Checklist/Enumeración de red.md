@@ -1,7 +1,3 @@
-Enumerar hosts en una misma red
-}
-
-
 
 ## arpscan 
 ```

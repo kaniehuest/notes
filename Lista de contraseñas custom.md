@@ -1,3 +1,9 @@
+# Ls
+Útil para crear diccionarios o for loops.
+```
+/usr/bin/ls -1
+```
+
 # Cupp
 ```
 sudo cupp -i
