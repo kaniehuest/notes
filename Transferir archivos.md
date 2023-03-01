@@ -32,7 +32,6 @@ nc -lvnp 1337 > archivo.py
 nc 192.168.1.23 1337 < archivo.py
 ```
 
-
 # Curl 
 ```
 curl --upload-file <archivo> http://192.168.1.93

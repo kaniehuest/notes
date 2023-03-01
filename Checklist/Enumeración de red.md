@@ -1,5 +1,4 @@
-
-## arpscan 
+## Arpscan 
 ```
 sudo arp-scan -I <intrefaz de red> --localnet
 ```
@@ -8,7 +7,7 @@ ejemplo:
 sudo arp-scan -I eth0 --localnet
 ```
 
-## fping
+## Fping
 ```
 fping -aqg 192.168.1.0/24
 ```

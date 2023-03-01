@@ -27,6 +27,11 @@ Log poisoning
 file.php?file=/var/log/auth.log&cmd=id
 ```
 
+# Nikto
+```
+nikto -h http://192.168.1.86/SuperCMS/login.html
+```
+
 # Checklist
 - Revisra ruta .git
 - Probar distintos diccionarios para fuerza bruta
