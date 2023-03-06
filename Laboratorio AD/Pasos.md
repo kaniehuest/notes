@@ -1,0 +1,4 @@
+- Crear templates [acá](obsidian://open?vault=vulnhub&file=Laboratorio%20AD%2FTemplates)
+- Conectarse al DC  por WinRM [acá](obsidian://open?vault=vulnhub&file=Laboratorio%20AD%2FConectarse%20al%20DC%20por%20WinRM)
+- Configurar DC [acá](obsidian://open?vault=vulnhub&file=Laboratorio%20AD%2FConfigurar%20Domain%20Controller)
+- Agregar Workstation al DC

@@ -11,7 +11,7 @@ sudo cupp -i
 
 # Cewl
 ```
-cewl -m 4 -w passwd --with-numbers http://192.168.1.85/
+cewl -w passwd --with-numbers http://192.168.1.85/
 ```
 
 # Cunch

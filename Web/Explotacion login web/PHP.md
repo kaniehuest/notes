@@ -1,4 +1,3 @@
-
 Type juggling
 ```
 username=<desconocido>&password[]=<desconocido>

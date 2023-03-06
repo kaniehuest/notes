@@ -1,4 +1,3 @@
-
 # John
 ```
 .\john-1.9.0-jumbo-1-win64\run\john.exe --wordlist=.\SecLists\Passwords\Leaked-Databases\rockyou.txt .\hash.txt
@@ -14,8 +13,9 @@
 ```
 https://github.com/readonlymaio/mm_id_rsa_bruteforce/blob/master/mm_id_rsa_bruteforce.sh
 ---
-bash mm_id_rsa_bruteforce.sh /usr/share/seclists/Passwords/Leaked-Databases/rockyou.txt id_rsa
+./mm_id_rsa_bruteforce.sh /usr/share/seclists/Passwords/Leaked-Databases/rockyou.txt id_rsa
 ```
+
 # Hashcat
 ```
 # Dentro de la carpeta de hashcat

@@ -1,0 +1,4 @@
+- Instalar Windows 11 64bits
+- Instalar Wintows SERVER 2022
+- Instalar VMware tools
+- Habilitar modo de plantilla (Enable template mode)

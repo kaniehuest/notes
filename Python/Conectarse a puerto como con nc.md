@@ -1,4 +1,4 @@
-Basic script:
+
 ```python
 import pwn
 import time

@@ -1,7 +1,11 @@
+Enumerar usuarios
+```
+wpscan --url http://192.168.1.43 --enumerate u
+```
 
 Bruteforce a login
 ```
-wpscan --url http://192.168.1.85/ --usernames ../enumeration/users --passwords passwd
+wpscan --url http://192.168.1.85/ --usernames users.txt --passwords passwd.txt
 ```
 
 Enumeración
